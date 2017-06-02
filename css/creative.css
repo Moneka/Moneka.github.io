@@ -12,10 +12,11 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: white;
   border-width: 3px;
   max-width: 50px;
 }
+
 hr.light {
   border-color: white;
 }
@@ -274,7 +275,7 @@ header .header-content .header-content-inner p {
     font-size: 16px;
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
+    font-size: 50px;
   }
 }
 .call-to-action h2 {
@@ -337,7 +338,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
+  background-color:coral;
   border-color: #F05F40;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -350,7 +351,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
+  background-color:black;
   border-color: #ed431f;
 }
 .btn-primary:active,

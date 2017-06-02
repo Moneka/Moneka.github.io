@@ -4,7 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
   font-size: 20px;
   color: #333333;
 }
@@ -21,8 +23,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h44 {   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    
 }
 a {
   color: #333333;
@@ -184,6 +189,7 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+    color:darkorange;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -204,6 +210,7 @@ hr.small {
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
+    
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -220,6 +227,7 @@ hr.small {
   }
   .intro-header .post-heading .subheading {
     font-size: 30px;
+      color: coral;
   }
 }
 .post-preview > a {
